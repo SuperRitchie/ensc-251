@@ -1,0 +1,13 @@
+/////////////////////////////////////////////////////////////////////////////////////
+//    Big-O Analysis of reverse() + helpers:
+// 
+// 1. All operations of reverse() and its inside functions (bottomfeeder(), pop()):
+//
+///       Big-O Notation = O(n^2)
+//
+//    Originally, to calculate the big-O notation, we broke up the reverse()
+//    function into its individual operations and calculated each big-O
+//    for each. Afterwards, you add up the big-O of each operation together. In
+//    the end, the highest order term is what we consider the big-O of the
+//    function. In this case, O(n^2).  
+/////////////////////////////////////////////////////////////////////////////////////
